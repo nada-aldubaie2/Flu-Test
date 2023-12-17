@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section{
+
+}
+section .sidekick
+{
+  animation: adviceMove .9s ;
+  -webkit-animation: adviceMove .9s ;
+}
+  @keyframes adviceMove {
+  0% {
+    transform: translate(23vw, 0);
+    -webkit-transform: translate(23vw, 0);
+    -moz-transform: translate(23vw, 0);
+    -ms-transform: translate(23vw, 0);
+    -o-transform: translate(23vw, 0);
+}
+
+  100% {
+    transform: translate(0vw, 0);
+    -webkit-transform: translate(0vw, 0);
+    -moz-transform: translate(0vw, 0);
+    -ms-transform: translate(0vw, 0);
+    -o-transform: translate(0vw, 0);
+}
+}
+
+/*==========Footer============*/
+@media screen and (max-width:667px) {
+  .footer p{
+    font-size: 10px !important;
+  }
+}
+.footer{
+  height: fill-available;;
+}
+.icon-upload{
+  font-size: 40px;
+ 
+  margin-left: 17px;
+  
+  position: relative;
+  top: 9px;
+
+
+}
+
+/*=====Main Content form add Syndromes=====*/
+.icon-upload:hover{ 
+  font-size: 43px;
+transition: 0.2s;
+color: rgb(160, 250, 205);
+}
