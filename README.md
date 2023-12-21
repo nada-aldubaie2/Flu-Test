@@ -1,6 +1,3 @@
-# Simple site of flu test has written using MERN Stack; Mongo db, Express js, Node js, and React js with Tailwind 🩺🌊
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
